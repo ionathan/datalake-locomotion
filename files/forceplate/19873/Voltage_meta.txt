@@ -1,0 +1,35 @@
+Log name: 19873
+User: cancamtest
+Project name: C:\Users\cancamtest\Desktop\Force Plate.seproj
+File name: C:\Users\cancamtest\Documents\SignalExpress Data\19873\Voltage.tdms
+File size: 18.643kB
+Log duration: 11 seconds
+Log dt (s): 10m
+Log iteration length (s): 1
+Number of sample in log: 1100
+Log datatype: Time-WDT-Real
+Unit: V
+Log start time: 6/5/2018 12:18:11.482
+Time zone: Eastern Daylight Time
+Writer name: SignalExpress 2015
+Writer version: 15.0
+File format version: 2.1
+Log signal names:
+     19873 - Voltage - Dev1_ai0
+     19873 - Voltage - Dev1_ai1
+     19873 - Voltage - Dev1_ai2
+     19873 - Voltage - Dev1_ai3
+     19873 - Voltage - Dev1_ai4
+     19873 - Voltage - Dev1_ai5
+     19873 - Voltage - Dev1_ai6
+     19873 - Voltage - Dev1_ai7
+
+
+Alarms:
+None
+
+Start conditions:
+None
+
+Stop conditions:
+None
