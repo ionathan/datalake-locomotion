@@ -1,0 +1,4 @@
+matplotlib==3.*
+pandas
+pyspark:2.4.5
+findspark:1.3.0

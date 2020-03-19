@@ -1,8 +1,0 @@
-name: ipython-spark
-dependencies:
-  - python
-  - pip
-  - pip:
-    - matplotlib
-    - pyspark:2.4.5
-    - findspark:1.3.0
