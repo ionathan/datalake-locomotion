@@ -1,1 +1,3 @@
-FROM jupyter/pyspark-notebook:dc9744740e12
+FROM iathan/b4flocomotionbase:1.0.0
+
+ADD .
