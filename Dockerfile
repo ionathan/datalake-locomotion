@@ -6,6 +6,6 @@ ADD files/ files/
 
 ADD requirements.txt requirements.txt
 
-pip install -r requirements.txt
+RUN pip install -r requirements.txt
 
 RUN chown -R jovyan:users .
