@@ -4,7 +4,7 @@ ADD notebooks/ .
 
 ADD files/ files/
 
-ADD requirements.txt
+ADD requirements.txt requirements.txt
 
 pip install -r requirements.txt
 
