@@ -6,3 +6,7 @@ RUN pip install -r requirements.txt
 USER $NB_USER
 ADD notebooks/ .
 ADD files/ files/
+
+RUN mkdir -p work/forceplate/original/
+RUN mkdir -p work/acc/original/
+
