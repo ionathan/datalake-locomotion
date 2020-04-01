@@ -6,12 +6,14 @@
 
 
 This work is embedded within the Big Data project of Breed4Food (http://breed4food.com). 
-We explore the possibility of using a data lake stack for storing and analysing sensor data, using an animal experiment as use case to have improved scalability, modularity, and interoperability. This repository includes all the code (notebooks and scripts) for the corresponding paper.
+We experiment with data lake stack for storing and analysing sensor data, using an animal experiment as use case to have improved scalability, modularity, and interoperability. This repository includes the code (notebooks and scripts) of the corresponding paper, currently under review.
 
-The selected use case was an experiment in which the gait score of 84 turkeys was determined. 
-Original data are proprietary. An subset of 3 turkeys has been released as open access on Zenodo, and can be used to run the code in this repository. The whole solution can be launched through Binder.
 
-About the problem
+
+
+
+The use case was an animal experiment in which the gait score of 84 turkeys was determined. 
+
 Gait scoring is traditionally performed by an expert.
 In this experiment different type of sensors were used to explore to what extent sensors can describe or mirror the gait score of an expert.
 
@@ -31,4 +33,7 @@ The ETL procedure will become more important because we need to handle ever incr
 In short, we want to combine different sensors in a massive way (and extract features), as well as going from proprietary formats to FAIR data. When these data are loaded it will be possible to visualize these data and perform a linear regression (and Machine Learning)
 
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+Original data are proprietary. An subset of 3 turkeys has been released as open access on Zenodo, and can be used to run the code in this repository. The whole solution can be launched through Binder.
+To launch the notebooks, click on the button [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ionathan/datalake-locomotion/master)
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
