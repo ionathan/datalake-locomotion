@@ -4,9 +4,9 @@ ADD requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 USER $NB_USER
-ADD notebooks/ .
-ADD files/ files/
+COPY --chown=jovyan:users notebooks/ .
+COPY --chown=jovyan:users files/ files/
 
 RUN mkdir -p work/forceplate/original/
-RUN mkdir -p work/acc/original/
+RUN mkdir -p work/accelerometer/original/
 
