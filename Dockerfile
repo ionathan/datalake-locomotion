@@ -5,6 +5,7 @@ RUN pip install -r requirements.txt
 
 USER $NB_USER
 COPY --chown=jovyan:users notebooks/ .
-COPY --chown=jovyan:users scripts/get_data.sh .
+COPY --chown=jovyan:users  scripts/get_data.sh .
+RUN ["chmod", "+x", "get_data.sh"]
+RUN ./get_data.sh
 
-RUN get_data.sh
