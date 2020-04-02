@@ -24,3 +24,7 @@ mkdir -p files/accelerometer
 wget https://zenodo.org/record/3563513/files/MT_0120067F_007.mtb -O 'files/accelerometer/MT_0120067F_007.mtb'
 wget https://zenodo.org/record/3563513/files/MT_0120067F_017.mtb -O 'files/accelerometer/MT_0120067F_017.mtb'
 wget https://zenodo.org/record/3563513/files/MT_0120067F_047.mtb -O 'files/accelerometer/MT_0120067F_047.mtb'
+
+
+mkdir -p work/forceplate/original/
+mkdir -p work/accelerometer/original/
