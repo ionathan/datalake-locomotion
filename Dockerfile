@@ -9,3 +9,6 @@ COPY --chown=jovyan:users  scripts/get_data.sh .
 RUN ["chmod", "+x", "get_data.sh"]
 RUN ./get_data.sh
 
+# install pixiedust
+RUN pip install pixiedust
+RUN yes | yes | yes| yes | jupyter pixiedust install
